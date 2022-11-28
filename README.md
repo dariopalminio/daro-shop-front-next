@@ -1,3 +1,15 @@
+## Stack
+
+- Stack: MERN (Node.js v.16.17.1 & npm v8.19.2) with React (18) + Typescript + NextJS
+- Programming Language: Javascript, Typescript
+- Framework: NextJS
+- Frontend Frameworks & libraries: React
+
+## Server-side rendering — SPA
+
+Server-side Rendering is simply you request a server for some HTML page (URL) and the server serves the HTML page for you that the browser can process.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
