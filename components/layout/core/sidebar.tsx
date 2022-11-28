@@ -87,12 +87,16 @@ const SideBar: React.FC<Props> = ({ menuList, style }) => {
     }
   ];
 
-
+  const handleClick = (item: MenuItemType) => {
+    const redirectToPath: string = item.path;
+    alert(redirectToPath);
+    //navigate(redirectToPath, { state: location }); // programmatically redirect
+  }
   
   return (
     <SideBarInner style={style ? style : {}}>
       <MenuList
-        onClick={(item: MenuItemType) => {}}
+        onClick={(item: MenuItemType) => handleClick(item)}
         id="MenuLeft"
         permission={'user'}
         menuList={LeftMenuData}></MenuList>
